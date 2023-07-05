@@ -151,7 +151,7 @@ $(function () {
     }
 
     //都道府県のチェック
-    if ($('#prefecture').prop('value') == false) {
+    if ($('#prefecture').val() == '') {
       $('#prefecture').css('background-color', '#f79999');
       error = true;
       message += '都道府県を選択してください \n';
